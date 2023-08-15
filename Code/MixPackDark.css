@@ -282,19 +282,11 @@ body {
 }
 
 .sidebar-1tnWFu .wrapper-NhbLHG .content-1gYQeQ .mainContent-20q_Hp .linkTop-1W1aK6 {
-<<<<<<< HEAD
-	font-size: 1rem;
-	line-height: normal;
-	padding: 4px 8px;
-	flex: 1 1 auto;
-	width: 0;
-=======
     font-size: 1rem;
     line-height: normal;
     padding: 4px 8px;
     flex: 1 1 auto;
     width: 0;
->>>>>>> a2f5f6e (Updated to match discord changes)
 }
 
 .sidebar-1tnWFu .wrapper-NhbLHG .content-1gYQeQ .children-1MGS9G {
@@ -407,10 +399,6 @@ body {
 	margin-left: 8px;
 }
 
-<<<<<<< HEAD
-.sidebar-1tnWFu .container-1Bj0eq > ul .typeThread-2Aqh6X.wrapper-NhbLHG .link-1_kTxV {
-	padding-left: 2rem;
-=======
 .sidebar-1tnWFu .container-1Bj0eq > ul {
     flex: 1 1 auto;
 }
@@ -439,7 +427,6 @@ body {
 .sidebar-1tnWFu .wrapper-NhbLHG:hover .children-1MGS9G .iconItem-1EjiK0 {
     width: 1.2rem;
     padding: 2px 4px;
->>>>>>> a2f5f6e (Updated to match discord changes)
 }
 
 /* Channel Item - Voice Chat --------------------------------------------------------------------------------------- */
