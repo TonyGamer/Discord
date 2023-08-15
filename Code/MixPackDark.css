@@ -38,23 +38,7 @@
 	--interactive-hover: var(--text-normal);
 	--interactive-active: rgb(255, 255, 255);
 
-  --input-background: var(--background-primary);
-
-	--modal-footer-background: rgba(var(--Mix-Primary), 0.4);
-
-	--button-secondary-background: rgba(var(--Mix-Tertiary), 0.8);
-	--button-secondary-background-hover: rgba(80, 82, 86, 0.8);
-
-	--header-primary: rgb(242, 243, 245);
-	--header-secondary: rgb(181, 186, 193);
-
-	--text-normal: rgb(219, 222, 225);
-	--text-muted: rgb(148, 155, 164);
-
-	--channels-default: var(--text-muted);
-	--channel-icon: rgb(128, 132, 142);
-
-	--Sidebar-Category-BG: var(--background-primary);
+    /* MixPack Variables */
 
 	/* Memberlist */
 	--Memberlist-Background: rgba(var(--Mix-Tertiary), 0.2);
@@ -298,11 +282,19 @@ body {
 }
 
 .sidebar-1tnWFu .wrapper-NhbLHG .content-1gYQeQ .mainContent-20q_Hp .linkTop-1W1aK6 {
+<<<<<<< HEAD
 	font-size: 1rem;
 	line-height: normal;
 	padding: 4px 8px;
 	flex: 1 1 auto;
 	width: 0;
+=======
+    font-size: 1rem;
+    line-height: normal;
+    padding: 4px 8px;
+    flex: 1 1 auto;
+    width: 0;
+>>>>>>> a2f5f6e (Updated to match discord changes)
 }
 
 .sidebar-1tnWFu .wrapper-NhbLHG .content-1gYQeQ .children-1MGS9G {
@@ -415,8 +407,39 @@ body {
 	margin-left: 8px;
 }
 
+<<<<<<< HEAD
 .sidebar-1tnWFu .container-1Bj0eq > ul .typeThread-2Aqh6X.wrapper-NhbLHG .link-1_kTxV {
 	padding-left: 2rem;
+=======
+.sidebar-1tnWFu .container-1Bj0eq > ul {
+    flex: 1 1 auto;
+}
+
+.link-1_kTxV {
+    padding: 0px;
+}
+
+.sidebar-1tnWFu .linkTop-1W1aK6 {
+    padding: 3px 8px 3px 3px;
+    border: 2px solid transparent;
+}
+
+.sidebar-1tnWFu .linkTop-1W1aK6:hover {
+    background: linear-gradient(to right, var(--Sidebar-Channel-BG) 50%, transparent);
+    border-image: linear-gradient(to right, transparent 50%, var(--Sidebar-Channel-BG, transparent)) 1/2px;
+}
+
+.sidebar-1tnWFu .linkTop-1W1aK6 {
+    background: linear-gradient(to right, var(--Sidebar-Channel-BG) 50%, transparent);
+    border-image: linear-gradient(to right, transparent 50%, var(--Sidebar-Channel-BG, transparent)) 1/2px;
+}
+
+/* --------------------------------------------------------------------------------------- */
+
+.sidebar-1tnWFu .wrapper-NhbLHG:hover .children-1MGS9G .iconItem-1EjiK0 {
+    width: 1.2rem;
+    padding: 2px 4px;
+>>>>>>> a2f5f6e (Updated to match discord changes)
 }
 
 /* Channel Item - Voice Chat --------------------------------------------------------------------------------------- */
@@ -1243,4 +1266,17 @@ background: var(--Memberlist-Background);
 
 .wrapper-3ByaVZ .footer-1hTRRZ {
 	background: var(--background-secondary);
+}
+
+/* Forums Fix */
+.scrollerBase-1Pkza4::-webkit-scrollbar-track {
+    background: var(--Memberlist-Scrollbar);
+    border-radius: 0;
+    margin: 0;
+}
+
+.scrollerBase-1Pkza4::-webkit-scrollbar-thumb {
+    background: var(--Memberlist-Scrollbar-Thumb);
+    border-radius: 0;
+    border: none;
 }
